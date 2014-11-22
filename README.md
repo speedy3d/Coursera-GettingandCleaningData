@@ -15,11 +15,11 @@ More information about this dataset can be found here: http://archive.ics.uci.ed
 
 The run_analysis.R script merges data from a number of .txt files to create a new "tidy" dataset. This is accomplished through the following steps:
 
-1) Training, test, subject, and feature datasets are read into R
-2) Training and test data are merged toghether into a single dataset
-3) Labels are added to comlumns that are related to mean and standard deviation
-4) The script will then create the average of each variable for each activity/subject and label them with the appropriate average tag
-4) The script will output a .txt file containing the now transformed tidy dataset
+1) Training, test, subject, and feature datasets are read into R<br>
+2) Training and test data are merged toghether into a single dataset<br>
+3) Labels are added to comlumns that are related to mean and standard deviation<br>
+4) The script will then create the average of each variable for each activity/subject and label them with the appropriate average tag<br>
+4) The script will output a .txt file containing the now transformed tidy dataset<br>
 
 The tidy dataset, Coursera_UCI_HAR_TidyData.txt can be found in this repository
 
