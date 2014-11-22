@@ -1,10 +1,10 @@
-##Codebook for Coursera_UCI_HAR_TidyData.txt
+#Codebook for Coursera_UCI_HAR_TidyData.txt
 
-#Data Source
+##Data Source
 
 The original source for this data was the "Human Activity Recognition Using Smartphones Dataset Version 1.0" which can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#Original Code Book (Modified)
+#Original Code Book (Slightly Modified)
 
 A comprehensive description about the original dataset can be found in the ReadMe and features_info files. Below is a modified description of the original dataset which includes information related to transformation and creation of the new tidy dataset:
 
@@ -48,7 +48,7 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-#Code Book for Tidy Dataset (result of run_analysis.R)
+##Code Book for Tidy Dataset (result of run_analysis.R)
 
 All variables contain the following standard pattern:
 
@@ -61,16 +61,11 @@ Each element is defined as follows:
 3) [statistic] - statistic applied to the variable, either mean or standard deviation <br>
 4) [vector] - the vector in the x,y,z plane that the column represents <br>
 
-
 Below is a completed list of variables in the new dataset:
 
 "Activity" "Subject" "Average:  tBodyAcc-mean()-X" "Average:  tBodyAcc-mean()-Y" "Average:  tBodyAcc-mean()-Z" "Average:  tBodyAcc-std()-X" "Average:  tBodyAcc-std()-Y" "Average:  tBodyAcc-std()-Z" "Average:  tGravityAcc-mean()-X" "Average:  tGravityAcc-mean()-Y" "Average:  tGravityAcc-mean()-Z" "Average:  tGravityAcc-std()-X" "Average:  tGravityAcc-std()-Y" "Average:  tGravityAcc-std()-Z" "Average:  tBodyAccJerk-mean()-X" "Average:  tBodyAccJerk-mean()-Y" "Average:  tBodyAccJerk-mean()-Z" "Average:  tBodyAccJerk-std()-X" "Average:  tBodyAccJerk-std()-Y" "Average:  tBodyAccJerk-std()-Z" "Average:  tBodyGyro-mean()-X" "Average:  tBodyGyro-mean()-Y" "Average:  tBodyGyro-mean()-Z" "Average:  tBodyGyro-std()-X" "Average:  tBodyGyro-std()-Y" "Average:  tBodyGyro-std()-Z" "Average:  tBodyGyroJerk-mean()-X" "Average:  tBodyGyroJerk-mean()-Y" "Average:  tBodyGyroJerk-mean()-Z" "Average:  tBodyGyroJerk-std()-X" "Average:  tBodyGyroJerk-std()-Y" "Average:  tBodyGyroJerk-std()-Z" "Average:  tBodyAccMag-mean()" "Average:  tBodyAccMag-std()" "Average:  tGravityAccMag-mean()" "Average:  tGravityAccMag-std()" "Average:  tBodyAccJerkMag-mean()" "Average:  tBodyAccJerkMag-std()" "Average:  tBodyGyroMag-mean()" "Average:  tBodyGyroMag-std()" "Average:  tBodyGyroJerkMag-mean()" "Average:  tBodyGyroJerkMag-std()" "Average:  fBodyAcc-mean()-X" "Average:  fBodyAcc-mean()-Y" "Average:  fBodyAcc-mean()-Z" "Average:  fBodyAcc-std()-X" "Average:  fBodyAcc-std()-Y" "Average:  fBodyAcc-std()-Z" "Average:  fBodyAccJerk-mean()-X" "Average:  fBodyAccJerk-mean()-Y" "Average:  fBodyAccJerk-mean()-Z" "Average:  fBodyAccJerk-std()-X" "Average:  fBodyAccJerk-std()-Y" "Average:  fBodyAccJerk-std()-Z" "Average:  fBodyGyro-mean()-X" "Average:  fBodyGyro-mean()-Y" "Average:  fBodyGyro-mean()-Z" "Average:  fBodyGyro-std()-X" "Average:  fBodyGyro-std()-Y" "Average:  fBodyGyro-std()-Z" "Average:  fBodyAccMag-mean()" "Average:  fBodyAccMag-std()" "Average:  fBodyBodyAccJerkMag-mean()" "Average:  fBodyBodyAccJerkMag-std()" "Average:  fBodyBodyGyroMag-mean()" "Average:  fBodyBodyGyroMag-std()" "Average:  fBodyBodyGyroJerkMag-mean()" "Average:  fBodyBodyGyroJerkMag-std()"
 
-Please note that the variables follow the same pattern. 
-
-
-
-#Citation
+##Citation
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
