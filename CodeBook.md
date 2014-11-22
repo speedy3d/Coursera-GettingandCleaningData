@@ -4,7 +4,7 @@
 
 The original source for this data was the "Human Activity Recognition Using Smartphones Dataset Version 1.0" which can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-#Original Code Book (Slightly Modified)
+##Original Code Book (Slightly Modified)
 
 A comprehensive description about the original dataset can be found in the ReadMe and features_info files. Below is a modified description of the original dataset which includes information related to transformation and creation of the new tidy dataset:
 
